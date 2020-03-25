@@ -1,17 +1,10 @@
-class State:
-
-    def __init__(self):
-        self.canMove = False
-        self.damage = 0
-        
-
-class SiegeState(State):
+class SiegeState:
     def __init__(self):
         
         self.canMove = False
         self.damage = 20
 
-class TankState(State):
+class TankState:
     def __init__(self):
         self.canMove = True
         self.damage = 5
